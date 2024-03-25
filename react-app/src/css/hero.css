@@ -1,0 +1,10 @@
+.hero-sec {
+    height: 90svh;
+    width: 100svw;
+}
+
+.hero-link {
+    height: 90vh;
+    width: auto;
+    transform: translateX(15%);
+}

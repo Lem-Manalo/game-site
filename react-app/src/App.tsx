@@ -1,12 +1,14 @@
 // import { useState } from "react";
 import "./App.css";
-import Navbar from "./navbar.tsx";
+import Navbar from "./components/navbar.tsx";
+import Hero from "./components/hero.tsx";
 
 function App() {
   return (
     <>
-      <main className="bg-background w-full relative">
-        <Navbar />
+      <Navbar />
+      <main className="relative">
+        <Hero />
       </main>
     </>
   );
