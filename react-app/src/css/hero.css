@@ -1,10 +1,30 @@
+:root {
+    --color-primary: #3cda5a;
+    --color-secondary: #7def93;
+    --color-background: #f6fdf8;
+    --color-text: #061108;
+    --color-accent: #52f371;
+}
+
 .hero-sec {
     height: 90svh;
     width: 100svw;
 }
 
 .hero-link {
-    height: 90vh;
+    height: 90svh;
     width: auto;
     transform: translateX(15%);
+}
+
+.gradient-text {
+    background-image: linear-gradient(
+        to right, #00ff00, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+img {
+    filter: drop-shadow(-10px 10px 4px var(--color-text));
 }
