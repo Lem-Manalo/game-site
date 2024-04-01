@@ -77,8 +77,8 @@ function Navbar() {
         <div
           className={
             isVisible == false
-              ? "lg:hidden hidden bg-slate-950 bg-cover bg-center fixed w-full h-full"
-              : "lg:hidden block bg-slate-950 bg-cover bg-center fixed w-full h-full"
+              ? "xl:hidden hidden bg-slate-950 bg-cover bg-center fixed w-full h-full"
+              : "xl:hidden block bg-slate-950 bg-cover bg-center fixed w-full h-full"
           }
         >
           <ul className="px-2 py-4 mx-2 md:mx-6">

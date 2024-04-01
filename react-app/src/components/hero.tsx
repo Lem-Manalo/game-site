@@ -58,7 +58,7 @@ function Hero() {
       {images.map((image, index) => (
         <img
           key={index}
-          className={`p-8 block lg:hidden absolute top-0 right-0 z-10 w-auto h-full shadow-se shadow-lg transition-opacity duration-1000 ${
+          className={`px-8 pt-8 block lg:hidden absolute bottom-0 right-0 z-10 w-auto h-full shadow-se shadow-lg transition-opacity duration-1000 ${
             index === currentImageIndex ? "opacity-30" : "opacity-0"
           }`}
           src={image}
