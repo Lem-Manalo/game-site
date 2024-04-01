@@ -59,7 +59,7 @@ function Navbar() {
                   placeholder="Search"
                 />
                 <RiShoppingCartFill className="w-10 h-10 cursor-pointer hover:opacity-80 active:opacity-100" />
-                <button className="bg-primary active:bg-primary hover:bg-secondary transtition duration-300 border-solid rounded-md py-2 px-4 mx-4">
+                <button className="bg-yellow-400 active:bg-yellow-400 hover:bg-yellow-200 transtition duration-100 border-solid py-2 px-4 mx-4">
                   Sign In
                 </button>
               </div>

@@ -14,27 +14,28 @@ function Hero() {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change the duration (in milliseconds) as needed
+    }, 4000); // Change the duration (in milliseconds) as needed
 
     return () => clearInterval(interval);
   }, []);
   return (
     // <section className="relative mt-20 px-4 w-full gap-0 flex hero-sec">
-    <section className="px-4 w-full gap-0 flex hero-sec">
+    <section className="relative px-4 w-full gap-0 flex hero-sec">
       <div className="mb-36 p-4 flex flex-col justify-center lg:w-1/2 xl:w-3/5 z-20">
         <h1 className="flex text-center justify-center lg:text-left lg:block py-3 text-5xl md:text-6xl xl:text-8xl italic mt-8 mb-4 bg-gradient-to-r from-text to-primary text-transparent bg-clip-text">
           Elevate your gaming experience
         </h1>
         <h4 className="flex text-center lg:text-left justify-center lg:block text-2xl text-text">
-          Discover the latest releases, classic favorites, and exclusive deals
-          for every gamer.
+          Discover the latest releases, classics, and exclusive deals
+          for every gamer. 
         </h4>
+        <h4 className="flex text-center lg:text-left justify-center lg:block text-2xl text-text">A single-page mock design.</h4>
         <div className="mt-8 flex space-x-2 flex lg:text-left text-center justify-center lg:block">
-          <button className="border border-primary bg-primary hover:bg-secondary active:bg-primary border-primary border-solid rounded-md px-8 py-2">
-            Buy Now
-          </button>
-          <button className="border border-black border-solid hover:bg-yellow-400 active:bg-transparent hover:border-yellow-400 active:border-black rounded-md px-4 py-2">
+          <button className="border border-primary bg-primary hover:bg-secondary active:bg-primary border-solid px-8 py-2">
             Pre-order
+          </button>
+          <button className="border border-yellow-400 border-solid bg-yellow-400 hover:bg-yellow-200 active:bg-transparent hover:border-yellow-400 active:bg-yellow-400 px-4 py-2">
+            Buy Now
           </button>
         </div>
       </div>
@@ -57,7 +58,7 @@ function Hero() {
       {images.map((image, index) => (
         <img
           key={index}
-          className={`block lg:hidden absolute top-0 p-8 right-0 z-10 w-auto h-full shadow-se shadow-lg transition-opacity duration-1000 ${
+          className={`p-8 block lg:hidden absolute top-0 right-0 z-10 w-auto h-full shadow-se shadow-lg transition-opacity duration-1000 ${
             index === currentImageIndex ? "opacity-30" : "opacity-0"
           }`}
           src={image}

@@ -11,6 +11,9 @@ function App() {
       <main className="relative">
         <Hero />
         <Consoles />
+        <section className="fake-sec">
+          hello
+        </section>
       </main>
     </>
   );

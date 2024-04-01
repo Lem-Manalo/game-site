@@ -6,8 +6,9 @@
     --color-accent: #52f371;
 }
 
+
 .hero-sec {
-    height: 90svh;
+    height: 80svh;
     width: 100svw;
 }
 
@@ -18,8 +19,7 @@
 }
 
 .gradient-text {
-    background-image: linear-gradient(
-        to right, #00ff00, black);
+    background-image: linear-gradient(to right, #00ff00, black);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
