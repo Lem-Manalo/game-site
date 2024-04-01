@@ -2,6 +2,7 @@
 import "./App.css";
 import Navbar from "./components/navbar.tsx";
 import Hero from "./components/hero.tsx";
+import Consoles from "./components/consoles.tsx";
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <Navbar />
       <main className="relative">
         <Hero />
+        <Consoles />
+        <section className="fake-sec">
+          hello
+        </section>
       </main>
     </>
   );
