@@ -6,7 +6,7 @@ import Steamdeck from "../images/steamdeck.png"
 
 function Consoles() {
   return (
-    <section className="console-sec relative z-40 bg-gradient-to-b from-black via-gray-900 to-gray-800">
+    <section className="console-sec flex flex-col items-center relative z-40 bg-gradient-to-b from-black via-gray-900 to-gray-800">
       <div className="flex justify-center space-x-8 lg:space-x-24 items-center py-8 px-4">
         <svg className="transition-transform duration-500 transform w-8 md:w-16 h-auto hover:cursor-pointer hover:translate-y-4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" fill="#ffffff">
           <path d="M 19.3125 4 C 19.011719 4 18.707031 3.988281 18.40625 4.1875 C 18.105469 4.386719 18 4.699219 18 5 L 18 41.59375 C 18 41.992188 18.289063 42.394531 18.6875 42.59375 L 26.6875 45 L 27 45 C 27.199219 45 27.394531 44.914063 27.59375 44.8125 C 27.894531 44.613281 28 44.300781 28 44 L 28 13.40625 C 28.601563 13.707031 29 14.300781 29 15 L 29 26.09375 C 29 26.394531 29.199219 26.804688 29.5 26.90625 C 29.699219 27.007813 31.199219 27.90625 34 27.90625 C 36.699219 27.90625 40 26.414063 40 19.3125 C 40 13.613281 36.8125 9.292969 31.3125 7.59375 Z M 17 26.40625 L 5.90625 30.40625 L 4.3125 31 C 1.613281 32.101563 0 33.886719 0 35.6875 C 0 39.488281 2.699219 41.6875 7.5 41.6875 C 10.101563 41.6875 13.300781 41.113281 17 39.8125 L 17 36 C 16.101563 36.300781 15.113281 36.699219 14.3125 37 C 12.710938 37.601563 11.5 37.8125 10.5 37.8125 C 9 37.8125 8.300781 37.300781 8 37 C 7.601563 36.699219 7.398438 36.3125 7.5 35.8125 C 7.601563 34.8125 8.800781 33.894531 11 33.09375 C 11.5 32.894531 14.898438 31.699219 17 31 Z M 36.5 28.90625 C 34.101563 29.007813 31.601563 29.394531 29 30.09375 L 29 34.6875 C 30.101563 34.289063 31.585938 33.800781 33.6875 33 C 38.488281 31.300781 40.492188 31.488281 41.09375 31.6875 C 42.292969 31.789063 42.800781 32.5 43 33 C 43.5 34.5 41.613281 35.1875 38.8125 36.1875 C 37.511719 36.6875 31.898438 38.6875 29 39.6875 L 29 44.3125 L 44.5 38.8125 L 45.6875 38.3125 C 47.6875 37.613281 50.199219 36.300781 50 34 C 49.898438 31.800781 47.210938 30.695313 45.3125 30.09375 C 42.511719 29.195313 39.5 28.804688 36.5 28.90625 Z"></path>
@@ -21,10 +21,24 @@ function Consoles() {
           <g fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none"><g transform="scale(5.12,5.12)"><path d="M25,3c-11.41,0 -20.79062,8.68078 -21.89062,19.80078l11.19141,5.72852c1.13,-0.95 2.59922,-1.5293 4.19922,-1.5293h0.05078c0.39,-0.6 0.83859,-1.35086 1.30859,-2.13086c0.98,-1.61 2.08016,-3.43008 3.16016,-4.83008c0.24,-4.47 3.95047,-8.03906 8.48047,-8.03906c4.69,0 8.5,3.81 8.5,8.5c0,4.53 -3.56906,8.24047 -8.03906,8.48047c-1.4,1.08 -3.21008,2.18039 -4.83008,3.15039c-0.78,0.48 -1.53086,0.92836 -2.13086,1.31836v0.05078c0,3.59 -2.91,6.5 -6.5,6.5c-3.59,0 -6.5,-2.91 -6.5,-6.5c0,-0.17 0.00953,-0.33 0.01953,-0.5l-8.74023,-4.48047c1.69,10.48 10.7707,18.48047 21.7207,18.48047c12.15,0 22,-9.85 22,-22c0,-12.15 -9.85,-22 -22,-22zM31.5,14c-3.58,0 -6.5,2.92 -6.5,6.5c0,3.58 2.92,6.5 6.5,6.5c3.58,0 6.5,-2.92 6.5,-6.5c0,-3.58 -2.92,-6.5 -6.5,-6.5zM31.5,16c2.49,0 4.5,2.01 4.5,4.5c0,2.49 -2.01,4.5 -4.5,4.5c-2.49,0 -4.5,-2.01 -4.5,-4.5c0,-2.49 2.01,-4.5 4.5,-4.5zM18.5,29c-0.79,0 -1.53969,0.20031 -2.17969,0.57031l3.32031,1.69922c1.23,0.63 1.70984,2.14109 1.08984,3.37109c-0.45,0.86 -1.32047,1.35938 -2.23047,1.35938c-0.39,0 -0.77062,-0.08953 -1.14062,-0.26953l-3.33008,-1.71094c0.26,2.24 2.1607,3.98047 4.4707,3.98047c2.49,0 4.5,-2.01 4.5,-4.5c0,-2.49 -2.01,-4.5 -4.5,-4.5z"></path></g></g>
         </svg>
       </div>
-      <img className="h-1/2 w-auto"src={PS5} alt="PS5 Console" />
-      {/* <img className="h-1/2 w-auto"src={SwitchOLED} alt="Switch OLED" /> */}
-      {/* <img className="h-1/2 w-auto"src={Xbox} alt="Xbox Console" /> */}
-      {/* <img className="h-1/2 w-auto"src={Steamdeck} alt="Steamdeck" /> */}
+      {/* <img className="h-1/2 w-auto absolute top-1/4 left-50 z-0 opacity-15 lg:static lg:opacity-100 lg:h-1/3"src={PS5} alt="PS5 Console" />
+      <h1 className="px-12 text-center text-white text-3xl mt-12 z-10">Level Up Your Experience: Your Gateway to Next-Gen Fun!</h1>
+      <h4 className="px-12 text-white text-lg mt-12 md:w-3/4 lg:w-2/3 xl:w-1/2 text-center z-10">Prepare to immerse yourself in stunning graphics, captivating gameplay, and endless entertainment possibilities. From classic consoles that evoke nostalgia to state-of-the-art systems pushing the boundaries of technology, our lineup caters to every gaming preference.</h4> */}
+
+      <img className="h-1/2 w-auto absolute top-1/4 left-50 z-0 opacity-15 lg:static lg:opacity-100 lg:h-1/3"src={SwitchOLED} alt="Switch OLED" />
+      <h1 className="px-12 text-center text-white text-3xl mt-12 z-10">Switch Up Your Game, Anytime, Anywhere!</h1>
+      <h4 className="px-12 text-white text-lg mt-12 md:w-3/4 lg:w-2/3 xl:w-1/2 text-center z-10">Prepare to immerse yourself in stunning graphics, captivating gameplay, and endless entertainment possibilities. From classic consoles that evoke nostalgia to state-of-the-art systems pushing the boundaries of technology, our lineup caters to every gaming preference.</h4>
+
+      {/* <img className="h-1/2 w-auto absolute top-1/4 left-50 z-0 opacity-15 lg:static lg:opacity-100 lg:h-1/3"src={Xbox} alt="Xbox Console" />
+      <h1 className="px-12 text-center text-white text-3xl mt-12 z-10">Power Your Play, Unleash the Next Level!</h1>
+      <h4 className="px-12 text-white text-lg mt-12 md:w-3/4 lg:w-2/3 xl:w-1/2 text-center z-10">Prepare to immerse yourself in stunning graphics, captivating gameplay, and endless entertainment possibilities. From classic consoles that evoke nostalgia to state-of-the-art systems pushing the boundaries of technology, our lineup caters to every gaming preference.</h4> */}
+
+      {/* <img className="h-1/2 w-auto absolute top-1/4 left-50 z-0 opacity-15 lg:static lg:opacity-100 lg:h-1/3"src={Steamdeck} alt="Steamdeck" />
+      <h1 className="px-12 text-center text-white text-3xl mt-12 z-10">Unlock Infinite Worlds, Anywhere You Go, with Steam Deck!</h1>
+      <h4 className="px-12 text-white text-lg mt-12 md:w-3/4 lg:w-2/3 xl:w-1/2 text-center z-10">Prepare to immerse yourself in stunning graphics, captivating gameplay, and endless entertainment possibilities. From classic consoles that evoke nostalgia to state-of-the-art systems pushing the boundaries of technology, our lineup caters to every gaming preference.</h4> */}
+      <button className="z-10 my-8 border border-primary bg-primary hover:bg-secondary active:bg-primary border-solid px-8 py-2">
+        See More
+      </button>
     </section>
   );
 }
