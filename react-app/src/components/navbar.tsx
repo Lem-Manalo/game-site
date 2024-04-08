@@ -34,13 +34,13 @@ function Navbar() {
                   href=""
                   className="text-gray-600 hover:text-white-900 hover:font-bold"
                 >
-                  Games
+                  Accessories
                 </a>
                 <a
                   href=""
                   className="text-gray-600 hover:text-gray-900 hover:font-bold"
                 >
-                  Accessories
+                  Games
                 </a>
                 <a
                   href=""
