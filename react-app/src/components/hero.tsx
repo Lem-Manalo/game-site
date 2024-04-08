@@ -22,8 +22,8 @@ function Hero() {
     // <section className="relative mt-20 px-4 w-full gap-0 flex hero-sec">
     <section className="relative px-4 w-full gap-0 flex hero-sec">
       <div className="mb-36 p-4 flex flex-col justify-center lg:w-1/2 xl:w-3/5 z-20">
-        <h1 className="flex text-center justify-center lg:text-left lg:block py-3 text-5xl md:text-6xl xl:text-8xl italic mt-8 mb-4 bg-gradient-to-r from-text to-primary text-transparent bg-clip-text">
-          Elevate your gaming experience
+        <h1 className="font-bold flex text-center justify-center lg:text-left lg:block py-3 text-5xl md:text-6xl xl:text-8xl mt-8 mb-4 text-gray-800">
+          Elevate your <span className="bg-gradient-to-l from-gray-800 to-primary text-transparent bg-clip-text">gaming</span> experience
         </h1>
         <h4 className="flex text-center lg:text-left justify-center lg:block text-2xl text-text">
           Discover the latest releases, classics, and exclusive deals
