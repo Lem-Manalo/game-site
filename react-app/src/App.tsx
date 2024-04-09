@@ -13,7 +13,7 @@ function App() {
         <Hero />
         <Consoles />
         <Accessories />
-        <div className="h-96 w-full">Hello World</div>
+        {/* <div className="h-96">Hello World</div> */}
       </main>
     </>
   );

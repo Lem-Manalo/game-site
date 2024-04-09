@@ -11,7 +11,7 @@ import SwitchSplitpad from "../images/switch-splitpad.avif"
 
 function Accessories() {
   return (
-    <section className="card-list py-20 px-8 text-gray-700 bg-background items-center">
+    <section className="w-full card-list py-20 px-8 text-gray-700 bg-background items-center">
       <div className="card">
         <div className="row-span-3 overflow-hidden">
           <img className="w-full h-auto" src={PS5Controller} alt="Assassin's Creed: Odyssey" />
@@ -69,6 +69,78 @@ function Accessories() {
       <div className="card">
         <div className="row-span-3 overflow-hidden">
           <img className="w-full h-auto" src={SwitchController} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
+        </div>
+        <div className="p-4 row-span-2">
+          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
+          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="row-span-3 overflow-hidden">
+          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
         </div>
         <div className="p-4 row-span-2">
           <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
