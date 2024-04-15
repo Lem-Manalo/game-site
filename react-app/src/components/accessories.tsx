@@ -1,5 +1,4 @@
 import "../css/accessories.css";
-import FC6 from "../images/card-farcry6.jpg";
 import PS5Controller from "../images/ps5-controller.webp";
 import PS5Headset from "../images/ps5-headset.webp";
 import XboxController from "../images/xbox-controller.jpg"
@@ -69,78 +68,6 @@ function Accessories() {
       <div className="card">
         <div className="row-span-3 overflow-hidden">
           <img className="w-full h-auto" src={SwitchController} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
-        </div>
-        <div className="p-4 row-span-2">
-          <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>
-          <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div className="card">
-        <div className="row-span-3 overflow-hidden">
-          <img className="w-full h-auto" src={SwitchSplitpad} alt="Assassin's Creed: Odyssey" />
         </div>
         <div className="p-4 row-span-2">
           <h4 className="font-bold text-md">Assassin's Creed: Odyssey</h4>

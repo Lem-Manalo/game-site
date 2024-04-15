@@ -4,6 +4,7 @@ import Navbar from "./components/navbar.tsx";
 import Hero from "./components/hero.tsx";
 import Consoles from "./components/consoles.tsx";
 import Accessories from "./components/accessories.tsx";
+import Games from "./components/games.tsx";
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
         <Hero />
         <Consoles />
         <Accessories />
-        {/* <div className="h-96">Hello World</div> */}
+        <Games/>
+        <section className="bg-white h-96">
+          Extra Section sample
+        </section>
       </main>
     </>
   );
